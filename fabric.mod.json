@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "surfacemap_server",
+  "version": "${version}",
+  "name": "SurfaceMap Server",
+  "description": "Enforces surface-only Xaero's World Map config for all players",
+  "authors": ["ServerAdmin"],
+  "environment": "server",
+  "entrypoints": {
+    "main": ["com.surfacemap.SurfaceMapServer"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  }
+}
