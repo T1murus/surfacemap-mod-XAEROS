@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "surfacemap_server",
+  "id": "surfacemap_client",
   "version": "${version}",
-  "name": "SurfaceMap Server",
-  "description": "Enforces surface-only Xaero's World Map config for all players",
+  "name": "SurfaceMap Client",
+  "description": "Locks Xaero's World Map to surface-only mode as required by server",
   "authors": ["ServerAdmin"],
-  "environment": "server",
+  "environment": "client",
   "entrypoints": {
-    "main": ["com.surfacemap.SurfaceMapServer"]
+    "client": ["com.surfacemap.SurfaceMapClient"]
   },
   "depends": {
     "fabricloader": ">=0.16.0",
